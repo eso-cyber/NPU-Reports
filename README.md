@@ -1,1 +1,2 @@
-testo del file
+# NPU-Reports 🧠🚀
+Benchmarking and documenting Neural Processing Units.
