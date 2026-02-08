@@ -1,0 +1,17 @@
+==========================================================
+NPU REPORT - SESSION LOG 2026-02-08
+==========================================================
+Hardware: Intel Core Ultra (Meteor Lake)
+Backend: SYCL / IPEX-LLM
+Model: Phi-3-mini (GGUF)
+
+STATUS: SUCCESS
+Detection: "found 1 SYCL devices"
+Initialization: OK
+Download Speed: ~3.4 MB/s (In progress)
+
+NOTE: 
+Il sistema ha correttamente agganciato la NPU. 
+L'errore di bind sulla porta 11434 indica un server 
+precedente attivo, ma il backend SYCL è operativo.
+==========================================================
