@@ -38,3 +38,10 @@ barChart
 pie title Inference Speed on Intel NPU (Tokens/sec)
     "Llama 3.1 (8B)" : 4.17
     "TinyLlama (1.1B)" : 22.0
+
+## 🔄 OpenVINO Support (Advanced)
+OpenVINO is the primary toolkit for high-performance inference on Intel hardware.
+To test NPU detection via OpenVINO:
+```bash
+sudo apt install python3-openvino
+python3 scripts/openvino/check_npu_openvino.py
