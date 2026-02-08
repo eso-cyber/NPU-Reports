@@ -7,3 +7,11 @@ Durante i test su architetture Intel (Meteor Lake), abbiamo confermato che il ba
 - **Porta 11434**: Se riscontri l'errore *address already in use*, assicurati di terminare i processi pendenti con `sudo pkill ollama`.
 
 ---
+
+## 📊 Tabella Comparativa Risultati
+| Modello | Parametri | Hardware | Backend | Velocità (t/s) |
+| :--- | :--- | :--- | :--- | :--- |
+| Llama 3.1 | 8B | Intel Core Ultra | IPEX-LLM/SYCL | 4.17 |
+| TinyLlama | 1.1B | Intel Core Ultra | IPEX-LLM/SYCL | Test in corso... |
+
+> *Dati aggiornati il: 2026-02-08*
