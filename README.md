@@ -1,4 +1,5 @@
 ![License](https://img.shields.io) ![Go](https://img.shields.io) ![Python](https://img.shields.io) ![NPU](https://img.shields.io)
+![CI Check](https://github.com)
 
 # NPU-Reports 🧠🚀
 
