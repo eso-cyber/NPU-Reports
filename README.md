@@ -23,3 +23,18 @@ Ensure you have [Go](https://go.dev) installed, then compile the main utility:
 go build -o npu-pro main.go
 ./npu-pro --check
 
+
+## 📈 Visual Performance Comparison
+```mermaid
+barChart
+    title "Inference Speed on Intel NPU (Tokens/sec)"
+    x-axis "Model"
+    y-axis "Tokens per Second"
+    "Llama 3.1 (8B)" : 4.17
+    "TinyLlama (1.1B)" : 22.0
+
+## 📈 Visual Performance Comparison
+```mermaid
+pie title Inference Speed on Intel NPU (Tokens/sec)
+    "Llama 3.1 (8B)" : 4.17
+    "TinyLlama (1.1B)" : 22.0
